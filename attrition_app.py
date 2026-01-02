@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+# import joblib
 import time
 
 from streamlit_cookies_manager import EncryptedCookieManager
@@ -235,3 +235,4 @@ if hasattr(model, "feature_importances_"):
         st.bar_chart(importances)
     except Exception:
         pass
+

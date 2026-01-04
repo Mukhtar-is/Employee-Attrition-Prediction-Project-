@@ -22,3 +22,9 @@ I used Python with libraries such as pandas, seaborn, scikit learn, XGBoost, and
 ## Conclusion
 This project demonstrates that employee attrition can be predicted with high accuracy using HR data. By focusing on workload, satisfaction, tenure, and compensation, organizations can take proactive steps to retain talent, reduce costs, and strengthen employee engagement.
 
+## Login Information
+This app uses encrypted cookies to manage user sessions securely.
+```
+USERNAME = admin 
+PASSWORD = admin
+```

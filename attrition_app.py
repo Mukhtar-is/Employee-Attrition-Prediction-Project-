@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-# import joblib
+import joblib
 import time
 
 from streamlit_cookies_manager  import EncryptedCookieManager
@@ -64,7 +64,7 @@ if st.sidebar.button("Logout"):
 # -----------------------------
 st.set_page_config(page_title="Employee Attrition Predictor", page_icon="💼", layout="wide")
 
-st.title("💼 Employee Attrition Predictor")
+st.title("Employee Attrition Predictor")
 st.caption("Predict the likelihood of employee turnover and get clear business friendly interpretations.")
 
 
@@ -235,6 +235,7 @@ if hasattr(model, "feature_importances_"):
         st.bar_chart(importances)
     except Exception:
         pass
+
 
 
 
